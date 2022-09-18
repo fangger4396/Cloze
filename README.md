@@ -9,7 +9,7 @@
 ```json
 {
     "id": "101",
-    "parsed metadata": [
+    "parsed raw metadata": [
         "rice",
         "bf",
         "cp",
