@@ -6,11 +6,13 @@
 
 ## Data Model
 ### Raw Metadata
+Example:
 ```json
 {
     "id": "101",
+    "raw metadata": "wkgo-bf-cp01.temp1"
     "parsed raw metadata": [
-        "rice",
+        "wkgo",
         "bf",
         "cp",
         "01",
@@ -20,6 +22,7 @@
 }
 ```
 ### Labels in Brick
+Example:
 ```json
 {
     "id": "101",
@@ -34,6 +37,7 @@
 }
 ```
 ### Specification File
+Example:
 ```json
 {
     "CWP":"Condensing Water Pump",
