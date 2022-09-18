@@ -1,0 +1,1961 @@
+{
+  "sensor": [
+    {
+      "capacity_sensor": []
+    },
+    {
+      "damper_position_sensor": []
+    },
+    {
+      "energy_sensor": []
+    },
+    {
+      "frost_sensor": []
+    },
+    {
+      "hail_sensor": []
+    },
+    {
+      "piezoelectric_sensor": []
+    },
+    {
+      "solar_radiance_sensor": []
+    },
+    {
+      "trace_heat_sensor": []
+    },
+    {
+      "conductivity_sensor": [
+        {
+          "deionised_water_conductivity_sensor": []
+        }
+      ]
+    },
+    {
+      "direction_sensor": [
+        {
+          "wind_direction_sensor": []
+        }
+      ]
+    },
+    {
+      "enthalpy_sensor": [
+        {
+          "air_enthalpy_sensor": [
+            {
+              "outside_air_enthalpy_sensor": []
+            },
+            {
+              "return_air_enthalpy_sensor": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frequency_sensor": [
+        {
+          "output_frequency_sensor": []
+        }
+      ]
+    },
+    {
+      "humidity_sensor": [
+        {
+          "air_humidity_sensor": [
+            {
+              "discharge_air_humidity_sensor": []
+            },
+            {
+              "exhaust_air_humidity_sensor": []
+            },
+            {
+              "outside_air_humidity_sensor": []
+            },
+            {
+              "relative_humidity_sensor": []
+            },
+            {
+              "return_air_humidity_sensor": []
+            },
+            {
+              "supply_air_humidity_sensor": []
+            },
+            {
+              "zone_humidity_sensor": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "luminance_sensor": [
+        {
+          "outside_luminance_sensor": []
+        }
+      ]
+    },
+    {
+      "motion_sensor": [
+        {
+          "pir_sensor": []
+        }
+      ]
+    },
+    {
+      "occupancy_sensor": [
+        {
+          "pir_sensor": []
+        }
+      ]
+    },
+    {
+      "rain_sensor": [
+        {
+          "rain_duration_sensor": []
+        }
+      ]
+    },
+    {
+      "torque_sensor": [
+        {
+          "motor_torque_sensor": []
+        }
+      ]
+    },
+    {
+      "water_level_sensor": [
+        {
+          "deionised_water_level_sensor": []
+        }
+      ]
+    },
+    {
+      "air_grains_sensor": [
+        {
+          "outside_air_grains_sensor": []
+        },
+        {
+          "return_air_grains_sensor": []
+        }
+      ]
+    },
+    {
+      "angle_sensor": [
+        {
+          "solar_azimuth_angle_sensor": []
+        },
+        {
+          "solar_zenith_angle_sensor": []
+        }
+      ]
+    },
+    {
+      "dewpoint_sensor": [
+        {
+          "outside_air_dewpoint_sensor": []
+        },
+        {
+          "return_air_dewpoint_sensor": []
+        }
+      ]
+    },
+    {
+      "flow_sensor": [
+        {
+          "water_flow_sensor": [
+            {
+              "supply_water_flow_sensor": [
+                {
+                  "chilled_water_discharge_flow_sensor": []
+                },
+                {
+                  "chilled_water_supply_flow_sensor": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "air_flow_sensor": [
+            {
+              "bypass_air_flow_sensor": []
+            },
+            {
+              "fume_hood_air_flow_sensor": []
+            },
+            {
+              "outside_air_flow_sensor": []
+            },
+            {
+              "return_air_flow_sensor": []
+            },
+            {
+              "supply_air_flow_sensor": []
+            },
+            {
+              "exhaust_air_flow_sensor": [
+                {
+                  "exhaust_air_stack_flow_sensor": []
+                }
+              ]
+            },
+            {
+              "discharge_air_flow_sensor": [
+                {
+                  "average_discharge_air_flow_sensor": []
+                },
+                {
+                  "average_supply_air_flow_sensor": []
+                }
+              ]
+            },
+            {
+              "fan_air_flow_sensor": [
+                {
+                  "booster_fan_air_flow_sensor": []
+                },
+                {
+                  "discharge_fan_air_flow_sensor": []
+                },
+                {
+                  "return_fan_air_flow_sensor": []
+                },
+                {
+                  "supply_fan_air_flow_sensor": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "current_sensor": [
+        {
+          "load_current_sensor": []
+        },
+        {
+          "motor_current_sensor": []
+        },
+        {
+          "photovoltaic_current_output_sensor": []
+        }
+      ]
+    },
+    {
+      "duration_sensor": [
+        {
+          "on_timer_sensor": []
+        },
+        {
+          "rain_duration_sensor": []
+        },
+        {
+          "run_time_sensor": []
+        }
+      ]
+    },
+    {
+      "pressure_sensor": [
+        {
+          "velocity_pressure_sensor": [
+            {
+              "discharge_air_velocity_pressure_sensor": []
+            },
+            {
+              "exhaust_air_velocity_pressure_sensor": []
+            },
+            {
+              "supply_air_velocity_pressure_sensor": []
+            }
+          ]
+        },
+        {
+          "differential_pressure_sensor": [
+            {
+              "chilled_water_differential_pressure_sensor": []
+            },
+            {
+              "filter_differential_pressure_sensor": []
+            },
+            {
+              "heat_wheel_differential_pressure_sensor": []
+            },
+            {
+              "hot_water_differential_pressure_sensor": [
+                {
+                  "medium_temperature_hot_water_differential_pressure_sensor": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "static_pressure_sensor": [
+            {
+              "building_static_pressure_sensor": []
+            },
+            {
+              "discharge_air_static_pressure_sensor": []
+            },
+            {
+              "supply_air_static_pressure_sensor": []
+            },
+            {
+              "exhaust_air_static_pressure_sensor": [
+                {
+                  "average_exhaust_air_static_pressure_sensor": []
+                },
+                {
+                  "lowest_exhaust_air_static_pressure_sensor": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "speed_sensor": [
+        {
+          "motor_speed_sensor": []
+        },
+        {
+          "wind_speed_sensor": []
+        },
+        {
+          "differential_speed_sensor": [
+            {
+              "heat_wheel_speed_sensor": []
+            },
+            {
+              "return_fan_differential_speed_sensor": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "temperature_sensor": [
+        {
+          "zone_temperature_sensor": [
+            {
+              "average_zone_temperature_sensor": []
+            },
+            {
+              "highest_zone_temperature_sensor": []
+            },
+            {
+              "lowest_zone_temperature_sensor": []
+            }
+          ]
+        },
+        {
+          "air_temperature_sensor": [
+            {
+              "exhaust_air_temperature_sensor": []
+            },
+            {
+              "mixed_air_temperature_sensor": []
+            },
+            {
+              "return_air_temperature_sensor": []
+            },
+            {
+              "zone_air_temperature_sensor": []
+            },
+            {
+              "outside_air_temperature_sensor": [
+                {
+                  "outside_air_lockout_temperature_differential_sensor": [
+                    {
+                      "high_outside_air_lockout_temperature_differential_sensor": []
+                    },
+                    {
+                      "low_outside_air_lockout_temperature_differential_sensor": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "discharge_air_temperature_sensor": [
+                {
+                  "cooling_coil_discharge_air_temperature_sensor": []
+                },
+                {
+                  "heat_wheel_discharge_air_temperature_sensor": []
+                },
+                {
+                  "preheat_discharge_air_temperature_sensor": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "water_temperature_sensor": [
+            {
+              "heat_exchanger_supply_water_temperature_sensor": []
+            },
+            {
+              "chilled_water_temperature_sensor": [
+                {
+                  "chilled_water_differential_temperature_sensor": []
+                },
+                {
+                  "chilled_water_supply_temperature_sensor": []
+                }
+              ]
+            },
+            {
+              "leaving_water_temperature_sensor": [
+                {
+                  "ice_tank_leaving_water_temperature_sensor": []
+                },
+                {
+                  "preheat_coil_leaving_air_temperature_sensor": []
+                }
+              ]
+            },
+            {
+              "return_water_temperature_sensor": [
+                {
+                  "chilled_water_return_temperature_sensor": []
+                },
+                {
+                  "hot_water_return_temperature_sensor": []
+                }
+              ]
+            },
+            {
+              "entering_water_temperature_sensor": [
+                {
+                  "hot_water_coil_entering_temperature_sensor": []
+                },
+                {
+                  "ice_tank_entering_water_temperature_sensor": []
+                },
+                {
+                  "preheat_coil_entering_air_temperature_sensor": []
+                }
+              ]
+            },
+            {
+              "hot_water_supply_temperature_sensor": [
+                {
+                  "domestic_hot_water_supply_temperature_sensor": []
+                },
+                {
+                  "high_temperature_hot_water_supply_temperature_sensor": []
+                },
+                {
+                  "medium_temperature_hot_water_supply_temperature_sensor": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "co2_sensor": [
+        {
+          "co2_differential_sensor": []
+        },
+        {
+          "co2_level_sensor": []
+        },
+        {
+          "outside_air_co2_sensor": []
+        },
+        {
+          "return_air_co2_sensor": []
+        }
+      ]
+    },
+    {
+      "demand_sensor": [
+        {
+          "active_power_sensor": []
+        },
+        {
+          "peak_power_demand_sensor": []
+        },
+        {
+          "reactive_power_sensor": []
+        },
+        {
+          "real_power_sensor": []
+        }
+      ]
+    },
+    {
+      "voltage_sensor": [
+        {
+          "battery_voltage_sensor": []
+        },
+        {
+          "dc_bus_voltage_sensor": []
+        },
+        {
+          "heat_wheel_voltage_sensor": []
+        },
+        {
+          "output_voltage_sensor": []
+        }
+      ]
+    }
+  ],
+  "alarm": [],
+  "status": [
+    {
+      "disable_status": []
+    },
+    {
+      "drive_ready_status": []
+    },
+    {
+      "emergency_air_flow_status": []
+    },
+    {
+      "emergency_generator_status": []
+    },
+    {
+      "emergency_push_button_status": []
+    },
+    {
+      "even_month_status": []
+    },
+    {
+      "fan_status": []
+    },
+    {
+      "fault_indicator_status": []
+    },
+    {
+      "freeze_status": []
+    },
+    {
+      "hand_auto_status": []
+    },
+    {
+      "hold_status": []
+    },
+    {
+      "last_fault_code_status": []
+    },
+    {
+      "lead_lag_status": []
+    },
+    {
+      "manual_auto_status": []
+    },
+    {
+      "off_status": []
+    },
+    {
+      "on_status": []
+    },
+    {
+      "speed_status": []
+    },
+    {
+      "stages_status": []
+    },
+    {
+      "system_shutdown_status": []
+    },
+    {
+      "system_status": []
+    },
+    {
+      "turn_off_status": []
+    },
+    {
+      "fault_status": [
+        {
+          "humidifier_fault_status": []
+        }
+      ]
+    },
+    {
+      "filter_status": [
+        {
+          "pre_filter_status": []
+        }
+      ]
+    },
+    {
+      "load_shed_status": [
+        {
+          "differential_pressure_load_shed_status": [
+            {
+              "chilled_water_differential_pressure_load_shed_reset_status": []
+            },
+            {
+              "chilled_water_differential_pressure_load_shed_status": []
+            },
+            {
+              "hot_water_differential_pressure_load_shed_reset_status": []
+            },
+            {
+              "hot_water_differential_pressure_load_shed_status": []
+            },
+            {
+              "hot_water_discharge_temperature_load_shed_status": []
+            },
+            {
+              "hot_water_supply_temperature_load_shed_status": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "occupancy_status": [
+        {
+          "temporary_occupancy_status": []
+        }
+      ]
+    },
+    {
+      "direction_status": [
+        {
+          "motor_direction_status": []
+        },
+        {
+          "run_direction_status": []
+        }
+      ]
+    },
+    {
+      "enable_status": [
+        {
+          "heat_exchanger_system_enable_status": []
+        },
+        {
+          "run_enable_status": []
+        }
+      ]
+    },
+    {
+      "overridden_status": [
+        {
+          "overridden_off_status": []
+        },
+        {
+          "overridden_on_status": []
+        }
+      ]
+    },
+    {
+      "pressure_status": [
+        {
+          "discharge_air_duct_pressure_status": []
+        },
+        {
+          "supply_air_duct_pressure_status": []
+        }
+      ]
+    },
+    {
+      "mode_status": [
+        {
+          "occupied_mode_status": []
+        },
+        {
+          "system_mode_status": []
+        },
+        {
+          "operating_mode_status": [
+            {
+              "vent_operating_mode_status": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "emergency_power_off_status": [
+        {
+          "emergency_power_off_activated_by_high_temperature_status": []
+        },
+        {
+          "emergency_power_off_activated_by_leak_detection_system_status": []
+        },
+        {
+          "emergency_power_off_enable_status": []
+        },
+        {
+          "emergency_power_off_system_enable_status": []
+        }
+      ]
+    },
+    {
+      "start_stop_status": [
+        {
+          "fan_start_stop_status": []
+        },
+        {
+          "motor_start_stop_status": []
+        },
+        {
+          "pump_start_stop_status": []
+        },
+        {
+          "run_status": []
+        }
+      ]
+    },
+    {
+      "on_off_status": [
+        {
+          "cooling_on_off_status": []
+        },
+        {
+          "dehumidification_on_off_status": []
+        },
+        {
+          "econcycle_on_off_status": []
+        },
+        {
+          "heating_on_off_status": []
+        },
+        {
+          "humidification_on_off_status": []
+        },
+        {
+          "locally_on_off_status": []
+        },
+        {
+          "remotely_on_off_status": []
+        },
+        {
+          "standby_glycool_unit_on_off_status": []
+        },
+        {
+          "standby_unit_on_off_status": []
+        }
+      ]
+    }
+  ],
+  "setpoint": [
+    {
+      "damper_position_setpoint": []
+    },
+    {
+      "dew_point_setpoint": []
+    },
+    {
+      "enthalpy_setpoint": []
+    },
+    {
+      "luminance_setpoint": []
+    },
+    {
+      "reset_setpoint": []
+    },
+    {
+      "co2_setpoint": [
+        {
+          "return_air_co2_setpoint": [
+            {
+              "max_return_air_co2_setpoint": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "flow_setpoint": [
+        {
+          "air_flow_setpoint": [
+            {
+              "fan_air_flow_setpoint": []
+            },
+            {
+              "outside_air_flow_setpoint": []
+            },
+            {
+              "exhaust_air_flow_setpoint": [
+                {
+                  "exhaust_air_stack_flow_setpoint": []
+                }
+              ]
+            },
+            {
+              "air_flow_demand_setpoint": [
+                {
+                  "discharge_air_flow_demand_setpoint": []
+                },
+                {
+                  "supply_air_flow_demand_setpoint": []
+                }
+              ]
+            },
+            {
+              "discharge_air_flow_setpoint": [
+                {
+                  "cooling_discharge_air_flow_setpoint": []
+                },
+                {
+                  "discharge_air_flow_demand_setpoint": []
+                },
+                {
+                  "heating_discharge_air_flow_setpoint": []
+                }
+              ]
+            },
+            {
+              "supply_air_flow_setpoint": [
+                {
+                  "cooling_supply_air_flow_setpoint": []
+                },
+                {
+                  "heating_supply_air_flow_setpoint": []
+                },
+                {
+                  "supply_air_flow_demand_setpoint": []
+                },
+                {
+                  "occupied_supply_air_flow_setpoint": [
+                    {
+                      "occupied_cooling_supply_air_flow_setpoint": []
+                    },
+                    {
+                      "occupied_heating_supply_air_flow_setpoint": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "load_setpoint": [
+        {
+          "max_load_setpoint": []
+        }
+      ]
+    },
+    {
+      "speed_setpoint": [
+        {
+          "differential_speed_setpoint": [
+            {
+              "return_discharge_fan_differential_speed_setpoint": []
+            },
+            {
+              "return_fan_differential_speed_setpoint": []
+            },
+            {
+              "return_supply_fan_differential_speed_setpoint": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "humidity_setpoint": [
+        {
+          "high_humidity_alarm_setpoint": []
+        },
+        {
+          "low_humidity_alarm_setpoint": []
+        }
+      ]
+    },
+    {
+      "temperature_setpoint": [
+        {
+          "water_temperature_setpoint": [
+            {
+              "entering_water_temperature_setpoint": []
+            },
+            {
+              "leaving_water_temperature_setpoint": []
+            }
+          ]
+        },
+        {
+          "air_temperature_setpoint": [
+            {
+              "effective_air_temperature_setpoint": []
+            },
+            {
+              "mixed_air_temperature_setpoint": []
+            },
+            {
+              "room_air_temperature_setpoint": []
+            },
+            {
+              "zone_air_temperature_setpoint": []
+            },
+            {
+              "discharge_air_temperature_setpoint": [
+                {
+                  "discharge_air_temperature_cooling_setpoint": []
+                },
+                {
+                  "discharge_air_temperature_heating_setpoint": []
+                }
+              ]
+            },
+            {
+              "outside_air_temperature_setpoint": [
+                {
+                  "low_outside_air_temperature_enable_setpoint": []
+                },
+                {
+                  "open_heating_valve_outside_air_temperature_setpoint": []
+                },
+                {
+                  "outside_air_lockout_temperature_setpoint": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode_setpoint": [
+        {
+          "dual_band_mode_setpoint": []
+        },
+        {
+          "occupied_mode_setpoint": []
+        },
+        {
+          "unoccupied_mode_setpoint": []
+        }
+      ]
+    },
+    {
+      "pressure_setpoint": [
+        {
+          "velocity_pressure_setpoint": []
+        },
+        {
+          "differential_pressure_setpoint": [
+            {
+              "chilled_water_differential_pressure_setpoint": []
+            },
+            {
+              "hot_water_differential_pressure_setpoint": []
+            },
+            {
+              "load_shed_differential_pressure_setpoint": [
+                {
+                  "chilled_water_differential_pressure_load_shed_setpoint": []
+                },
+                {
+                  "medium_temperature_hot_water_differential_pressure_load_shed_setpoint": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "static_pressure_setpoint": [
+            {
+              "building_static_pressure_setpoint": []
+            },
+            {
+              "chilled_water_static_pressure_setpoint": []
+            },
+            {
+              "discharge_air_static_pressure_setpoint": []
+            },
+            {
+              "exhaust_air_static_pressure_setpoint": []
+            },
+            {
+              "high_static_pressure_cutout_limit_setpoint": []
+            },
+            {
+              "hot_water_static_pressure_setpoint": []
+            },
+            {
+              "supply_air_static_pressure_setpoint": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "demand_setpoint": [
+        {
+          "cooling_demand_setpoint": []
+        },
+        {
+          "cooling_request_percent_setpoint": []
+        },
+        {
+          "cooling_request_setpoint": []
+        },
+        {
+          "heating_demand_setpoint": []
+        },
+        {
+          "heating_request_percent_setpoint": []
+        },
+        {
+          "heating_request_setpoint": []
+        },
+        {
+          "preheat_demand_setpoint": []
+        },
+        {
+          "air_flow_demand_setpoint": [
+            {
+              "discharge_air_flow_demand_setpoint": []
+            },
+            {
+              "supply_air_flow_demand_setpoint": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dead_band_setpoint": [
+        {
+          "chilled_water_differential_pressure_dead_band_setpoint": []
+        },
+        {
+          "cooling_discharge_air_temperature_dead_band_setpoint": []
+        },
+        {
+          "cooling_supply_air_temperature_dead_band_setpoint": []
+        },
+        {
+          "static_pressure_dead_band_setpoint": []
+        },
+        {
+          "air_flow_dead_band_setpoint": [
+            {
+              "exhaust_air_stack_flow_dead_band_setpoint": []
+            }
+          ]
+        },
+        {
+          "supply_water_differential_pressure_dead_band_setpoint": [
+            {
+              "thermal_energy_storage_supply_water_differential_pressure_dead_band_setpoint": []
+            }
+          ]
+        },
+        {
+          "supply_water_temperature_dead_band_setpoint": [
+            {
+              "heat_exchanger_supply_water_temperature_dead_band_setpoint": []
+            }
+          ]
+        },
+        {
+          "differential_pressure_dead_band_setpoint": [
+            {
+              "chilled_water_pump_differential_pressure_dead_band_setpoint": []
+            },
+            {
+              "hot_water_differential_pressure_dead_band_setpoint": []
+            }
+          ]
+        },
+        {
+          "discharge_air_temperature_dead_band_setpoint": [
+            {
+              "cooling_discharge_air_temperature_dead_band_setpoint": []
+            },
+            {
+              "heating_discharge_air_temperature_dead_band_setpoint": []
+            }
+          ]
+        },
+        {
+          "supply_air_temperature_dead_band_setpoint": [
+            {
+              "cooling_supply_air_temperature_dead_band_setpoint": []
+            },
+            {
+              "heating_supply_air_temperature_dead_band_setpoint": []
+            }
+          ]
+        },
+        {
+          "temperature_dead_band_setpoint": [
+            {
+              "occupied_cooling_temperature_dead_band_setpoint": []
+            },
+            {
+              "occupied_heating_temperature_dead_band_setpoint": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "command": [
+    {
+      "direction_command": []
+    },
+    {
+      "frequency_command": []
+    },
+    {
+      "heating_command": []
+    },
+    {
+      "luminance_command": []
+    },
+    {
+      "pump_command": []
+    },
+    {
+      "shutdown_command": []
+    },
+    {
+      "valve_command": []
+    },
+    {
+      "cooling_command": [
+        {
+          "highest_zone_cooling_command": []
+        }
+      ]
+    },
+    {
+      "damper_command": [
+        {
+          "damper_position_command": []
+        }
+      ]
+    },
+    {
+      "disable_command": [
+        {
+          "exhaust_fan_disable_command": []
+        }
+      ]
+    },
+    {
+      "override_command": [
+        {
+          "curtailment_override_command": []
+        }
+      ]
+    },
+    {
+      "load_shed_command": [
+        {
+          "standby_load_shed_command": [
+            {
+              "zone_standby_load_shed_command": []
+            }
+          ]
+        },
+        {
+          "unoccupied_load_shed_command": [
+            {
+              "zone_unoccupied_load_shed_command": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "on_off_command": [
+        {
+          "booster_fan_start_stop_command": []
+        },
+        {
+          "steam_on_off_command": []
+        }
+      ]
+    },
+    {
+      "mode_command": [
+        {
+          "automatic_mode_command": []
+        },
+        {
+          "box_mode_command": []
+        },
+        {
+          "maintenance_mode_command": []
+        }
+      ]
+    },
+    {
+      "enable_command": [
+        {
+          "exhaust_fan_enable_command": []
+        },
+        {
+          "run_enable_command": []
+        },
+        {
+          "vfd_enable_command": []
+        },
+        {
+          "system_enable_command": [
+            {
+              "chilled_water_system_enable_command": []
+            },
+            {
+              "hot_water_system_enable_command": [
+                {
+                  "domestic_hot_water_system_enable_command": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reset_command": [
+        {
+          "fan_speed_reset_command": []
+        },
+        {
+          "fault_reset_command": []
+        },
+        {
+          "filter_reset_command": []
+        },
+        {
+          "speed_reset_command": []
+        }
+      ]
+    }
+  ],
+  "meter": [
+    {
+      "building_meter": []
+    }
+  ],
+  "equipment": [
+    {
+      "elevator": []
+    },
+    {
+      "energy_storage": []
+    },
+    {
+      "fire_safety_system": []
+    },
+    {
+      "power_system": []
+    },
+    {
+      "shading_system": []
+    },
+    {
+      "solar_panel": []
+    },
+    {
+      "steam_system": []
+    },
+    {
+      "weather": []
+    },
+    {
+      "heating_ventilation_air_conditioning_system": [
+        {
+          "compressor": []
+        },
+        {
+          "condenser": []
+        },
+        {
+          "economizer": []
+        },
+        {
+          "fume_hood": []
+        },
+        {
+          "space_heater": []
+        },
+        {
+          "thermostat": []
+        },
+        {
+          "variable_frequency_drive": [
+            {
+              "heat_wheel_vfd": []
+            },
+            {
+              "preheat_valve_vfd": []
+            }
+          ]
+        },
+        {
+          "air_handler_unit": [
+            {
+              "rooftop_unit": []
+            },
+            {
+              "rooftop_unit": []
+            }
+          ]
+        },
+        {
+          "crac": []
+        },
+        {
+          "computer_room_air_conditioning": []
+        },
+        {
+          "filter": [
+            {
+              "mixed_air_filter": []
+            }
+          ]
+        },
+        {
+          "pump": [
+            {
+              "water_pump": [
+                {
+                  "chilled_water_pump": []
+                },
+                {
+                  "condenser_water_pump": []
+                },
+                {
+                  "hot_water_pump": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ahu": [
+            {
+              "rooftop_unit": []
+            }
+          ]
+        },
+        {
+          "chiller": [
+            {
+              "absorption_chiller": []
+            },
+            {
+              "centrifugal_chiller": []
+            }
+          ]
+        },
+        {
+          "coil": [
+            {
+              "cooling_coil": []
+            },
+            {
+              "heating_coil": []
+            }
+          ]
+        },
+        {
+          "heat_exchanger": [
+            {
+              "condenser_heat_exchanger": []
+            },
+            {
+              "evaporative_heat_exchanger": []
+            }
+          ]
+        },
+        {
+          "terminal_unit": [
+            {
+              "fan_coil_unit": []
+            }
+          ]
+        },
+        {
+          "valve": [
+            {
+              "isolation_valve": []
+            },
+            {
+              "water_valve": [
+                {
+                  "chilled_water_valve": []
+                }
+              ]
+            },
+            {
+              "heating_valve": [
+                {
+                  "domestic_hot_water_valve": []
+                },
+                {
+                  "preheat_hot_water_valve": []
+                },
+                {
+                  "reheat_valve": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "damper": [
+            {
+              "economizer_damper": []
+            },
+            {
+              "exhaust_damper": []
+            },
+            {
+              "outside_damper": []
+            },
+            {
+              "return_damper": []
+            }
+          ]
+        },
+        {
+          "vfd": [
+            {
+              "heat_wheel_vfd": []
+            },
+            {
+              "preheat_valve_vfd": []
+            },
+            {
+              "heat_wheel_vfd": []
+            },
+            {
+              "preheat_valve_vfd": []
+            },
+            {
+              "heat_wheel_vfd": []
+            },
+            {
+              "preheat_valve_vfd": []
+            }
+          ]
+        },
+        {
+          "fan": [
+            {
+              "cooling_tower_fan": []
+            },
+            {
+              "discharge_fan": []
+            },
+            {
+              "exhaust_fan": []
+            },
+            {
+              "return_fan": []
+            },
+            {
+              "standby_fan": []
+            },
+            {
+              "supply_fan": [
+                {
+                  "booster_fan": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "compressor": []
+        },
+        {
+          "condenser": []
+        },
+        {
+          "economizer": []
+        },
+        {
+          "fume_hood": []
+        },
+        {
+          "space_heater": []
+        },
+        {
+          "thermostat": []
+        },
+        {
+          "variable_frequency_drive": [
+            {
+              "heat_wheel_vfd": []
+            },
+            {
+              "preheat_valve_vfd": []
+            }
+          ]
+        },
+        {
+          "air_handler_unit": [
+            {
+              "rooftop_unit": []
+            },
+            {
+              "rooftop_unit": []
+            }
+          ]
+        },
+        {
+          "crac": []
+        },
+        {
+          "computer_room_air_conditioning": []
+        },
+        {
+          "filter": [
+            {
+              "mixed_air_filter": []
+            }
+          ]
+        },
+        {
+          "pump": [
+            {
+              "water_pump": [
+                {
+                  "chilled_water_pump": []
+                },
+                {
+                  "condenser_water_pump": []
+                },
+                {
+                  "hot_water_pump": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ahu": [
+            {
+              "rooftop_unit": []
+            }
+          ]
+        },
+        {
+          "chiller": [
+            {
+              "absorption_chiller": []
+            },
+            {
+              "centrifugal_chiller": []
+            }
+          ]
+        },
+        {
+          "coil": [
+            {
+              "cooling_coil": []
+            },
+            {
+              "heating_coil": []
+            }
+          ]
+        },
+        {
+          "heat_exchanger": [
+            {
+              "condenser_heat_exchanger": []
+            },
+            {
+              "evaporative_heat_exchanger": []
+            }
+          ]
+        },
+        {
+          "terminal_unit": [
+            {
+              "fan_coil_unit": []
+            }
+          ]
+        },
+        {
+          "valve": [
+            {
+              "isolation_valve": []
+            },
+            {
+              "water_valve": [
+                {
+                  "chilled_water_valve": []
+                }
+              ]
+            },
+            {
+              "heating_valve": [
+                {
+                  "domestic_hot_water_valve": []
+                },
+                {
+                  "preheat_hot_water_valve": []
+                },
+                {
+                  "reheat_valve": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "damper": [
+            {
+              "economizer_damper": []
+            },
+            {
+              "exhaust_damper": []
+            },
+            {
+              "outside_damper": []
+            },
+            {
+              "return_damper": []
+            }
+          ]
+        },
+        {
+          "vfd": [
+            {
+              "heat_wheel_vfd": []
+            },
+            {
+              "preheat_valve_vfd": []
+            },
+            {
+              "heat_wheel_vfd": []
+            },
+            {
+              "preheat_valve_vfd": []
+            },
+            {
+              "heat_wheel_vfd": []
+            },
+            {
+              "preheat_valve_vfd": []
+            }
+          ]
+        },
+        {
+          "fan": [
+            {
+              "cooling_tower_fan": []
+            },
+            {
+              "discharge_fan": []
+            },
+            {
+              "exhaust_fan": []
+            },
+            {
+              "return_fan": []
+            },
+            {
+              "standby_fan": []
+            },
+            {
+              "supply_fan": [
+                {
+                  "booster_fan": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lighting_system": []
+    },
+    {
+      "water_system": [
+        {
+          "chilled_water_system": []
+        },
+        {
+          "hot_water_system": []
+        }
+      ]
+    },
+    {
+      "hvac": [
+        {
+          "compressor": []
+        },
+        {
+          "condenser": []
+        },
+        {
+          "economizer": []
+        },
+        {
+          "fume_hood": []
+        },
+        {
+          "space_heater": []
+        },
+        {
+          "thermostat": []
+        },
+        {
+          "variable_frequency_drive": [
+            {
+              "heat_wheel_vfd": []
+            },
+            {
+              "preheat_valve_vfd": []
+            }
+          ]
+        },
+        {
+          "air_handler_unit": [
+            {
+              "rooftop_unit": []
+            },
+            {
+              "rooftop_unit": []
+            }
+          ]
+        },
+        {
+          "crac": []
+        },
+        {
+          "computer_room_air_conditioning": []
+        },
+        {
+          "filter": [
+            {
+              "mixed_air_filter": []
+            }
+          ]
+        },
+        {
+          "pump": [
+            {
+              "water_pump": [
+                {
+                  "chilled_water_pump": []
+                },
+                {
+                  "condenser_water_pump": []
+                },
+                {
+                  "hot_water_pump": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ahu": [
+            {
+              "rooftop_unit": []
+            }
+          ]
+        },
+        {
+          "chiller": [
+            {
+              "absorption_chiller": []
+            },
+            {
+              "centrifugal_chiller": []
+            }
+          ]
+        },
+        {
+          "coil": [
+            {
+              "cooling_coil": []
+            },
+            {
+              "heating_coil": []
+            }
+          ]
+        },
+        {
+          "heat_exchanger": [
+            {
+              "condenser_heat_exchanger": []
+            },
+            {
+              "evaporative_heat_exchanger": []
+            }
+          ]
+        },
+        {
+          "terminal_unit": [
+            {
+              "fan_coil_unit": []
+            }
+          ]
+        },
+        {
+          "valve": [
+            {
+              "isolation_valve": []
+            },
+            {
+              "water_valve": [
+                {
+                  "chilled_water_valve": []
+                }
+              ]
+            },
+            {
+              "heating_valve": [
+                {
+                  "domestic_hot_water_valve": []
+                },
+                {
+                  "preheat_hot_water_valve": []
+                },
+                {
+                  "reheat_valve": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "damper": [
+            {
+              "economizer_damper": []
+            },
+            {
+              "exhaust_damper": []
+            },
+            {
+              "outside_damper": []
+            },
+            {
+              "return_damper": []
+            }
+          ]
+        },
+        {
+          "vfd": [
+            {
+              "heat_wheel_vfd": []
+            },
+            {
+              "preheat_valve_vfd": []
+            },
+            {
+              "heat_wheel_vfd": []
+            },
+            {
+              "preheat_valve_vfd": []
+            },
+            {
+              "heat_wheel_vfd": []
+            },
+            {
+              "preheat_valve_vfd": []
+            }
+          ]
+        },
+        {
+          "fan": [
+            {
+              "cooling_tower_fan": []
+            },
+            {
+              "discharge_fan": []
+            },
+            {
+              "exhaust_fan": []
+            },
+            {
+              "return_fan": []
+            },
+            {
+              "standby_fan": []
+            },
+            {
+              "supply_fan": [
+                {
+                  "booster_fan": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "location": [
+    {
+      "basement": []
+    },
+    {
+      "building": []
+    },
+    {
+      "city": []
+    },
+    {
+      "floor": []
+    },
+    {
+      "outside": []
+    },
+    {
+      "roof": []
+    },
+    {
+      "space": []
+    },
+    {
+      "wing": []
+    },
+    {
+      "room": [
+        {
+          "server_room": []
+        },
+        {
+          "laboratory": [
+            {
+              "cold_box": []
+            },
+            {
+              "environment_box": []
+            },
+            {
+              "freezer": []
+            },
+            {
+              "hot_box": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "zone": [
+        {
+          "fire_zone": []
+        },
+        {
+          "hvac_zone": []
+        },
+        {
+          "lighting_zone": []
+        }
+      ]
+    }
+  ]
+}

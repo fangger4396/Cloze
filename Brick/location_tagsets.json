@@ -1,0 +1,22 @@
+[
+  "server_room",
+  "hot_box",
+  "hvac_zone",
+  "space",
+  "fire_zone",
+  "lighting_zone",
+  "room",
+  "roof",
+  "cold_box",
+  "floor",
+  "zone",
+  "location",
+  "laboratory",
+  "basement",
+  "wing",
+  "city",
+  "environment_box",
+  "building",
+  "freezer",
+  "outside"
+]
