@@ -6,6 +6,19 @@
 
 ## Data Model
 ### Raw Metadata
+```json
+{
+    "id": "101",
+    "parsed metadata": [
+        "rice",
+        "bf",
+        "cp",
+        "01",
+        "temp",
+        "1",
+    ],
+}
+```
 ### Labels in Brick
 ```json
 {
