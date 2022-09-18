@@ -13,3 +13,9 @@
 }
 ```
 ### Specification File
+```yaml
+{
+    "CWP":"Condensing Water Pump",
+    "CWVLV":"Condensing Water Valve"
+}
+```
