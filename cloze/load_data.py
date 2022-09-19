@@ -1,5 +1,7 @@
 import json
 from keras_preprocessing import sequence
+from sklearn.preprocessing import LabelBinarizer
+import numpy as np
 
 source_building_list = ['example']
 target_building = 'example'
@@ -47,6 +49,17 @@ for dict_index in range(len(source_word_dicts_list)):
         Y_source.append(source_label_dicts_list[dict_index][key])
 print(X_char_source)
 for key, value in target_word_dict.items():
+    chars = []
+    for i in range(word_maxlen):
+        if i < len(value):
+            for j in range(char_maxnum):
+                if j < len(value[i]):
+                    chars.append(value[i][j])
+                else:
+                    chars.append('#')
+        else:
+            chars.extend(['#'] * char_maxnum)
+    X_char_target.append(chars)
     X_word_target.append(target_word_dict[key])
     Y_target.append(target_label_dict[key])
 
@@ -99,11 +112,33 @@ tokenize the labels
 '''
 
 
+binarizer = LabelBinarizer()
+with open('../Brick/brick_class_list.json', 'r') as fp:
+    brick_class_list = json.load(fp)
+label_dict = {}
+cnt = 0
+for cls in brick_class_list:
+    label_dict[cls] = cnt
+    cnt += 1
+
+binarizer.fit(brick_class_list)
+Y_source = binarizer.transform(Y_source)
+Y_target = binarizer.transform(Y_target)
+
 '''
-model training
+pack into Dataset
 '''
 
 
-'''
-model testing
-'''
+class Dataset():
+    def __init__(self, X_word_source, X_char_source, Y_source, X_word_target, X_char_target, Y_target):
+        self.X_source = [np.array(X_word_source), np.array(X_char_source)]
+        self.Y_source = np.array(Y_source)
+        self.X_target = [np.array(X_word_target), np.array(X_char_target)]
+        self.Y_target = np.array(Y_target)
+
+
+dataset = Dataset(X_word_source, X_char_source, Y_source, X_word_target, X_char_target, Y_target)
+import pickle
+with open('dataset/example.pkl', 'wb') as fp:
+    pickle.dump(dataset, fp)
