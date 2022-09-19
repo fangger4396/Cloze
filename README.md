@@ -43,17 +43,45 @@ The key is the pieces of metadata, and the value is the description of the metad
 Example of metadata specification file:
 ```json
 {
+  "Equipment Code": {
+    "CP": "Chiller Plant",
     "CWP":"Condensing Water Pump",
-    "CWVLV":"Condensing Water Valve",
-    ...
+    "TAF":"Transfer Air Fan"
+  },
+  "Location Code": {
+    "BF": "Basement Floor",
+    "1F": "First Floor",
+    "PLANT": "Plant Room",
+    "DINRM": "Dining Room"
+  },
+  "Point Code": {
+    "TEMP": "Temperature",
+    "ODT": "Outdoor Air Temperature",
+    "OWT": "Outlet Water Temperature",
+    "FSPD": "Fan Speed"
+  }
 }
 ```
 Example for matching specification file with Brick schema tags:
 ```json
 {
-  "CWP": "Water Pump",
-  "CWVLV": "Water Valve",
-  ...
+  "Equipment Code": {
+    "CP": "Chiller",
+    "CWP":"Water Pump",
+    "TAF":"Air Fan"
+  },
+  "Location Code": {
+    "BF": "Basement Floor",
+    "1F": "Floor",
+    "PLANT": "Room",
+    "DINRM": "Room"
+  },
+  "Point Code": {
+    "TEMP": "Temperature Sensor",
+    "ODT": "Outside Air Temperature Sensor",
+    "OWT": "Return Water Temperature Sensor",
+    "FSPD": "Fan Speed Sensor"
+  }
 }
 ```
 
