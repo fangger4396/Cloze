@@ -1,0 +1,229 @@
+{
+  "1": {
+    "sub": [
+      "room",
+      "r"
+    ],
+    "obj": [
+      "floor"
+    ]
+  },
+  "2": {
+    "sub": [
+      "hvac",
+      "zone",
+      "r"
+    ],
+    "obj": [
+      "room",
+      "r"
+    ]
+  },
+  "3": {
+    "sub": [
+      "room",
+      "c",
+      "b"
+    ],
+    "obj": [
+      "floor"
+    ]
+  },
+  "4": {
+    "sub": [
+      "vav",
+      "r"
+    ],
+    "obj": [
+      "flow",
+      "sensor",
+      "hvac",
+      "zone",
+      "r"
+    ]
+  },
+  "5": {
+    "sub": [
+      "vav",
+      "r"
+    ],
+    "obj": [
+      "flow",
+      "sensor",
+      "hvac",
+      "zone",
+      "r"
+    ]
+  },
+  "6": {
+    "sub": [
+      "ahu",
+      "a"
+    ],
+    "obj": [
+      "vav",
+      "r"
+    ]
+  },
+  "7": {
+    "sub": [
+      "hvac",
+      "zone",
+      "r"
+    ],
+    "obj": [
+      "room",
+      "r"
+    ]
+  },
+  "8": {
+    "sub": [
+      "hvac",
+      "zone",
+      "r"
+    ],
+    "obj": [
+      "room",
+      "r"
+    ]
+  },
+  "9": {
+    "sub": [
+      "ahu",
+      "a"
+    ],
+    "obj": [
+      "override",
+      "event",
+      "event"
+    ]
+  },
+  "10": {
+    "sub": [
+      "ahu",
+      "a"
+    ],
+    "obj": [
+      "vav",
+      "r"
+    ]
+  },
+  "11": {
+    "sub": [
+      "room",
+      "r"
+    ],
+    "obj": [
+      "floor"
+    ]
+  },
+  "12": {
+    "sub": [
+      "ahu",
+      "a"
+    ],
+    "obj": [
+      "vav",
+      "r",
+      "a"
+    ]
+  },
+  "13": {
+    "sub": [
+      "vav",
+      "r"
+    ],
+    "obj": [
+      "flow",
+      "sensor",
+      "hvac",
+      "zone",
+      "r"
+    ]
+  },
+  "14": {
+    "sub": [
+      "vav",
+      "r"
+    ],
+    "obj": [
+      "temp",
+      "sensor",
+      "hvac",
+      "zone",
+      "r"
+    ]
+  },
+  "15": {
+    "sub": [
+      "vav",
+      "r"
+    ],
+    "obj": [
+      "hvac",
+      "zone",
+      "r"
+    ]
+  },
+  "16": {
+    "sub": [
+      "vav",
+      "r"
+    ],
+    "obj": [
+      "reheat"
+    ]
+  },
+  "17": {
+    "sub": [
+      "vav",
+      "r"
+    ],
+    "obj": [
+      "temp",
+      "sensor",
+      "hvac",
+      "zone",
+      "r"
+    ]
+  },
+  "18": {
+    "sub": [
+      "vav",
+      "r"
+    ],
+    "obj": [
+      "flow",
+      "sensor",
+      "hvac",
+      "zone",
+      "r"
+    ]
+  },
+  "19": {
+    "sub": [
+      "vav",
+      "r",
+      "a"
+    ],
+    "obj": [
+      "hvac",
+      "zone",
+      "r",
+      "a"
+    ]
+  },
+  "20": {
+    "sub": [
+      "vav",
+      "r"
+    ],
+    "obj": [
+      "temp",
+      "setpoint",
+      "hvac",
+      "zone",
+      "r"
+    ]
+  }
+}
