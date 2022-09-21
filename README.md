@@ -1,16 +1,16 @@
 # Cloze
 The Cloze is a building metadata generation system.
 ## Pipeline
-1. the building metadata required by model training is stored in the directory `data`. The parsed words of metadata is stored in `data/{}_word_dict.json` and the ground truth is stored in `data/{}_label_dict.json`. 
-   the specification file is stored in `data/{}_specification_file.json`.
+1. The building metadata required by model training is stored in the directory `data`. The parsed words of metadata is stored in `data/{}_word_dict.json` and the ground truth is stored in `data/{}_label_dict.json`. 
+   The specification file is stored in `data/{}_specification_file.json`.
    
-2. use the `cloze/speicication_file_process.py` to process the specification file.
+2. Use the `cloze/speicication_file_process.py` to process the specification file.
    
-3. use the `cloze/load_data.py` to process and load the building metadata for training.
+3. Use the `cloze/load_data.py` to process and load the building metadata for training.
    
-4. use the `cloze/{}_training.py` to train and evaluate the models in `model.py`.
+4. Use the `cloze/{}_training.py` to train and evaluate the models in `model.py`.
 
-5. functional classes and methods can be found in `cloze/utiliz.py`.
+5. Functional classes and methods can be found in `cloze/utiliz.py`.
 ## Installation
 ### Dependency
 + python 3
