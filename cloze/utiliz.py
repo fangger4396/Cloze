@@ -1,11 +1,12 @@
 import json
+import numpy as np
 
-word_dict_list = []
-with open('../data/example_word_dict.json', 'r') as fp:
-    word_dict = json.load(fp)
-word_dict_list.append(word_dict)
-word_dict_list.append(word_dict)
-
+class Dataset():
+    def __init__(self, X_word_source, X_char_source, Y_source, X_word_target, X_char_target, Y_target):
+        self.X_source = [X_word_source, X_char_source]
+        self.Y_source = Y_source
+        self.X_target = [X_word_target, X_char_target]
+        self.Y_target = Y_target
 
 def extract_word_vocab(word_dict_list):
     word_vocab = []

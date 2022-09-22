@@ -47,7 +47,7 @@ for dict_index in range(len(source_word_dicts_list)):
         X_char_source.append(chars)
         X_word_source.append(source_word_dicts_list[dict_index][key])
         Y_source.append(source_label_dicts_list[dict_index][key])
-print(X_char_source)
+
 for key, value in target_word_dict.items():
     chars = []
     for i in range(word_maxlen):
@@ -101,11 +101,8 @@ X_word_target = tokenize(X_word_target, word_vocab)
 X_char_source = tokenize(X_char_source, char_vocab)
 X_char_target = tokenize(X_char_target, char_vocab)
 
-X_word_source = sequence.pad_sequences(X_word_source, padding='post', maxlen=10)
-X_word_target = sequence.pad_sequences(X_word_target, padding='post', maxlen=10)
-
-print(X_word_source)
-print(X_char_source)
+X_word_source = sequence.pad_sequences(X_word_source, padding='post', maxlen=word_maxlen).tolist()
+X_word_target = sequence.pad_sequences(X_word_target, padding='post', maxlen=word_maxlen).tolist()
 
 '''
 tokenize the labels
@@ -128,14 +125,7 @@ Y_target = binarizer.transform(Y_target)
 '''
 pack into Dataset
 '''
-
-
-class Dataset():
-    def __init__(self, X_word_source, X_char_source, Y_source, X_word_target, X_char_target, Y_target):
-        self.X_source = [np.array(X_word_source), np.array(X_char_source)]
-        self.Y_source = np.array(Y_source)
-        self.X_target = [np.array(X_word_target), np.array(X_char_target)]
-        self.Y_target = np.array(Y_target)
+from utiliz import Dataset
 
 
 dataset = Dataset(X_word_source, X_char_source, Y_source, X_word_target, X_char_target, Y_target)

@@ -8,13 +8,13 @@ The Cloze is a building metadata generation system.
    
 3. Use the `cloze/load_data.py` to process and load the building metadata for training.
    
-4. Use the `cloze/{}_training.py` to train and evaluate the models in `model.py`.
+4. Use the `cloze/training.py` to train and evaluate the models in `model.py`.
 
 5. Functional classes and methods can be found in `cloze/utiliz.py`.
 ## Installation
 ### Dependency
 + python 3
-+ pip packages:
++ pip packages: `requirements.txt`
 ### Install
 
 `git clone https://github.com/fangger4396/Cloze.git`

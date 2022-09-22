@@ -95,7 +95,7 @@ class BiLSTM_relation():
         self.char_maxlen = self.word_maxlen * self.word_maxchar
         self.word_vocab_size = 720
         self.char_vocab_size = 27
-        self.output_classes = 460
+        self.output_classes = 10
 
         self.model = self.building_model()
 
@@ -131,9 +131,9 @@ class BiLSTM_relation():
                 char_embedding_obj[:, i * self.word_maxchar:(i + 1) * self.word_maxchar, :])
             embedding_list_obj.append(Reshape((1, 32 + 128), name='obj_reshape_' + str(i))(
                 Concatenate(axis=1, name='obj_concat_' + str(i))([word_embedding_obj[:, i, :], lstm_char_obj])))
-
+        print([embed for embed in embedding_list_sub] + [embed for embed in embedding_list_obj])
         final_embedding = Concatenate(axis=1, name='concat')(
-            [embed for embed in embedding_list_sub].extend([embed for embed in embedding_list_obj]))
+            [embed for embed in embedding_list_sub]+[embed for embed in embedding_list_obj])
 
         lstm_1 = Dropout(0.2, name='dropout_1')(Bidirectional(LSTM(64), name='lstm')(final_embedding))
         dense_1 = Dense(128, activation='relu', name='dense_1')(lstm_1)
@@ -154,7 +154,7 @@ class BiLSTM_relation_new():
         self.char_maxlen = self.word_maxlen * self.word_maxchar
         self.word_vocab_size = 720
         self.char_vocab_size = 27
-        self.output_classes = 460
+        self.output_classes = 10
 
         self.model = self.building_model()
 
@@ -192,13 +192,13 @@ class BiLSTM_relation_new():
                 Concatenate(axis=1, name='obj_concat_' + str(i))([word_embedding_obj[:, i, :], lstm_char_obj])))
 
         final_embedding = Concatenate(axis=1, name='concat')(
-            [embed for embed in embedding_list_sub].extend([embed for embed in embedding_list_obj]))
+            [embed for embed in embedding_list_sub] + [embed for embed in embedding_list_obj])
 
         lstm_1 = Dropout(0.2, name='dropout_1')(Bidirectional(LSTM(64), name='lstm')(final_embedding))
         dense_1 = Dense(128, activation='relu', name='dense_1')(lstm_1)
         dense_2 = Dense(64, activation='relu', name='dense_2')(dense_1)
         reinput = Reshape((64, 1))(dense_2)
-        lstm_2 = Dropout(0.2)(Bidirectional(LSTM(64))(reinput))
+        lstm_2 = Dropout(0.2, name='dropout_2')(Bidirectional(LSTM(64))(reinput))
         dense_3 = Dense(128, activation='relu', name='dense_3')(lstm_2)
         dense_4 = Dense(64, activation='relu', name='dense_4')(dense_3)
         output = Dense(self.output_classes, activation='softmax', name='main_output')(dense_4)
