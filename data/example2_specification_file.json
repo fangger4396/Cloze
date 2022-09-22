@@ -1,0 +1,16 @@
+{
+  "humidity": "humidity sensor",
+  "hw return temp": "hot water return temperature sensor",
+  "hot water return temp": "hot water return temperature sensor",
+  "hw supply temp": "hot water supply temperature sensor",
+  "ahu": "ahu",
+  "temp": "temperature sensor",
+  "discharge air tempdac": "discharge air temperature sensor in a room",
+  "cooling stpt": "cooling setpoint of a discharge air temperature sensor",
+  "entering water temp": "entering water temperature sensor",
+  "mixed air temp": "mixed air temperature sensor",
+  "occupancy": "occupancy sensor",
+  "hvac zone": "havc zone",
+  "zone temp": "air temperature sensor of a zone",
+  "space temp": "air temperature sensor of a space",
+}
