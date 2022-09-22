@@ -207,8 +207,4 @@ class BiLSTM_relation_new():
         model.compile(optimizer='rmsprop', loss='categorical_crossentropy', metrics=['acc'])
 
         return model
-# word_1 = [[1,2]]
-# char_1 = [[1,2,3,3,2,1,1,2,3,3,2,1]]
-# model = BiLSTM()
-# import numpy as np
-# print(model.model.predict([np.array(word_1), np.array(char_1)]).shape)
+
